@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(214, 243, 253);
+  }
+  header {
+    background-color: #001388;
+  }
+  .container1, .container2, .container3 {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+  }
+  .container1 {
+    background-color: #001388;
+    color: white;
+    text-align: center;
+  }
+  .titulo1 {
+    font-size: 2.5em; 
+    color: white;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    margin-left: 200px;
+  }
+  .imagem1 {
+    max-width: 100%; 
+    margin-left: 1300px;
+    margin-top: -50px;
+    width: 200px;
+    height: 50px;
+  }
+  #contato1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+  }
+  #botao1{
+    margin-left: 1310px;
+    width: 170px;
+    height: 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color:  white;
+    background-color: #001388;
+    cursor: pointer;
+}
+#botao1:hover {
+    background-color: rgb(26, 73, 230);
+    transition: 1.0s;
+}
+
+.imagem2{
+    width: 150px;
+    height: 150px;
+    margin-top: -800px;
+    margin-left: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.mensagem {
+    display: none; 
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #e0ffe0;
+    border: 1px solid #0c0;
+    border-radius: 5px;
+    color: #0c0;
+    text-align: center;
+    font-weight: bold;
+}
+:target .mensagem  {
+    display: block;
+}
+:target form {
+    display: none;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 85%; /* Ocupa a largura total do container */
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 130px;
+  }
+#botao2 {
+    padding: 10px 20px;
+    background-color: #041161;
+    color: white;
+    border: 1px solid #0000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 85%;
+    margin-left: 130px;
+  }
+#botao2:hover {
+    transition: 0.5s;
+    background-color: rgb(26, 73, 230);
+}
+.container3 {
+    background-color: #001388;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  footer{
+    background-color:  #041161;
+    color: white;
+    position: relative;
+    left: 0;
+}
+.insta{
+    position: relative;
+    width: 60px;
+    margin-left: 1560px;
+    top: -30px;
+}
+.whats{
+    position: relative;
+    width: 60px;
+    top: -30px;
+    left: 10px;
+
+}
+
+h4{
+    position: relative;
+    margin-left: 1180px;
+    top: 30px;
+}
+small{
+    position: relative;
+    margin-left: 1180px;
+    top: 40px;
+    font-size: medium;
+    color: white;
+}
+.email-roda {
+    color: white;
+    transition: color 0.5s ease;
+}
+.email-roda:hover {
+    color: rgb(101, 101, 230);
+}
