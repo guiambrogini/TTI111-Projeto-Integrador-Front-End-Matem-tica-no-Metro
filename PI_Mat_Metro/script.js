@@ -5,3 +5,4 @@ function mudarTexto(element) {
 function resetarTexto(element) {
     element.innerText = "Faça Parte"; 
 }
+

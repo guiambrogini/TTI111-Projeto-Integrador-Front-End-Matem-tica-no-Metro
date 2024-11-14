@@ -12,9 +12,9 @@
 <body>
     <header>
         <h1 class="titulo1">Entre em Contato</h1>
-            <a href="https://www.metro.sp.gov.br/pt_BR/" target="_blank">
-                <img src="imagens/metro.png" class="imagem1" alt="Metrô">
-            </a>
+        <a href="https://www.metro.sp.gov.br/pt_BR/" target="_blank">
+            <img src="imagens/metro.png" class="img1" alt="Metrô">
+        </a>
     </header>
     <br>
     <div id="div2" style="background-color: #001388;">
@@ -29,7 +29,7 @@
                 <img src="imagens/logo_png.png" class="imagem2" alt="Imagem Matemática no Metrô">
             </a>   
             
-            <form action="Confirmação" method="post">
+            <form id="forms-contato">
                 <label for="usuário"></label>
                 <input type="text" id="usuário" placeholder="Nome:" required>
                 
@@ -37,14 +37,13 @@
                 <input type="email" id="mail" placeholder="Email:" required>
                 
                 <label for="mensagem"></label>
-                <textarea id="coment" placeholder="Mensagem:" rows="10" cols="200"></textarea>
+                <textarea id="coment" placeholder="Mensagem:" rows="10" cols="200" required></textarea>
                 
                 <button id="botao2" type="submit">Enviar</button>
             </form>
-            <div id="mensagemConfirmacao" class="mensagem">
-                Sua mensagem foi enviada com sucesso! Logo entraremos em contato.
-            </div>
         </pre>
+        <p id="confirmacao-mensagem" class="confirmacao-mensagem">Mensagem enviada com sucesso!</p>
+        <script src="script_forms.js"></script>
     </div>
 
     <footer>

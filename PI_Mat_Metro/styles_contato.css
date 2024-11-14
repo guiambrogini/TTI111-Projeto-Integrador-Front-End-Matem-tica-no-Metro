@@ -8,7 +8,7 @@ body {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-    background-color: rgb(214, 243, 253);
+    background-color: azure;
   }
   header {
     background-color: #001388;
@@ -31,17 +31,15 @@ body {
     text-align: left;
     margin-left: 200px;
   }
-  .imagem1 {
-    max-width: 100%; 
+  .img1{
     margin-left: 1300px;
-    margin-top: -50px;
-    width: 200px;
-    height: 50px;
-  }
+    margin-top: -30px;
+  }              
   #contato1{
     color: white;
     text-align: center;
     margin-top: 100px;
+    font-size: 40px;
   }
   #botao1{
     margin-left: 1310px;
@@ -68,19 +66,22 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
 }
-.mensagem {
-    display: none; 
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #e0ffe0;
-    border: 1px solid #0c0;
-    border-radius: 5px;
-    color: #0c0;
-    text-align: center;
-    font-weight: bold;
+.confirmacao-mensagem {
+  display: none; /* Oculta a mensagem inicialmente */
+  color: green;
+  margin-left: 650px;
+  width: 640px;
+  height: 65px;
+  background-color: azure;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: -20px;
+  border-radius: 40px;
 }
+
 :target .mensagem  {
     display: block;
 }
@@ -94,7 +95,12 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
   }
+textarea {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 #botao2 {
     padding: 10px 20px;
     background-color: #041161;
