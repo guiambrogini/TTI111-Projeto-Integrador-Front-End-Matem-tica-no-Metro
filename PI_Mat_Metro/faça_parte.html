@@ -1,15 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faça Parte</title>
     <link rel="stylesheet" href="styles_faca_parte.css">
-    <link rel="icon" type="imagens/png" href="imagens/logo.jpg">
+    <link rel="icon" type="imagens/png" href="imagens/logo_correta.png">
 </head>
+
 <body>
-    <div>
-    <h1>Faça Parte</h1>
+    <header>
+        <div class="container-1">
+            <a href="index.html">
+                <img src="imagens/logo_correta.png" class="logo-1" alt="Matemática no Metrô">
+            </a>
+            <h1>Faça Parte</h1>
+        
+        </div>
+    </header>
+    <div class="container-2">
+        <a href="index.html">
+            <button id="botao-4">Voltar para pagina inicial</button>
+        </a>
+        <div class="container-resumo">
+            <br><br>
+            <h2>Resumo</h2>
+            <p id="">Estamos em busca de educadores, estudantes de exatas e voluntários com paixão por ensinar e
+                transformar o aprendizado em uma experiência prática e acessível. Ao participar,
+                você terá a chance de:</p>
+            <ul>
+                <li id="elem-1" class="lista">Compartilhar seu conhecimento com pessoas de diversas faixas etárias que
+                    buscam melhorar seu desempenho na matemática.</li>
+                <br>
+                <li id="elem-2" class="lista">Fazer parte de um projeto inovador, contribuindo para a inclusão
+                    educacional e a democratização do conhecimento.</li>
+            </ul>
+            <p id="">Vagas para Monitores, Mentores e Voluntários!</p>
+            <p id="">
+                Buscamos pessoas engajadas e comunicativas para apoiar estudantes em dúvidas e dificuldades, desde o
+                básico até temas mais avançados.
+                Disponibilidade em turnos flexíveis para quem busca uma experiência impactante, mesmo que com pouco
+                tempo.
+            </p>
+            <p id="">Junte-se a nós para tornar a matemática acessível e contribuir com a educação de quem mais precisa.
+            </p>
+            <p><u>Inscreva-se agora e ajude a fazer a diferença!</u></p>
+        </div>
+
+        <form id="forms-faca-parte">
+
+            <h2 id="candidato">Candidate-se aqui</h2>
+            <label for="usuário">Nome:</label>
+            <input type="text" id="usuário" placeholder="Nome:" required>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" placeholder="contato@exemplo.com" required>
+
+            <label for="cel">Telefone:</label>
+            <input type="tel" id="cel" placeholder="(11)91234-5678" maxlength="11" minlength="9"
+                pattern="[0-9()]{2}()[0-9]{5}-[0-9]{4}" required>
+
+            <label for="mensagem">Resumo:</label>
+            <textarea id="coment" placeholder="Conte um pouco sobre você" rows="10" cols="50" required></textarea>
+
+            <button id="botao-1" type="submit">Enviar</button>
+        </form>
+        <p id="confirmacao-mensagem" class="confirmacao-mensagem">Mensagem enviada com sucesso!</p>
     </div>
+    <footer>
+        <div class="container-3">
+            <p id="end-rodape">Endereço: Estação Sacomã, Praça Altemar Dutra - Ipiranga, São Paulo - SP, 04203-053</p>
+            <p id="mail-rodape">Email: contato@exemplo.com</p>
+            <p id="fone-rodape">Telefone: (11) 91234-5678</p>
+            <p id="copy-rodape">&copy; 2024 Matemática no Metrô. Todos os direitos reservados.</p>
+            <a href="contato.html">
+                <button class="botao-2" onmouseover="mudarTexto2(this)" onmouseout="resetarTexto2(this)">Entre em
+                    Contato</button>
+            </a>
+            <a href="index.html">
+                <img src="imagens/logo_correta.png" class="logo-rodape" alt="Matemática no Metrô">
+            </a>
+
+            </a>
+            <a href="https://www.instagram.com/matematica_no_metro/" target="_blank">
+                <img src="imagens/insta(3).png" class="insta-rodape" alt="Instagram">
+            </a>
+
+            <a href="" target="_blank">
+                <img src="imagens/whats(3).png" class="whats-rodape" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
