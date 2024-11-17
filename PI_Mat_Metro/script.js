@@ -24,4 +24,4 @@ document.getElementById('forms-faca-parte').addEventListener('submit', function(
     document.getElementById('confirmacao-mensagem').style.display = 'block';
     
     document.getElementById('forms-faca-parte').reset();
-  });
+  });

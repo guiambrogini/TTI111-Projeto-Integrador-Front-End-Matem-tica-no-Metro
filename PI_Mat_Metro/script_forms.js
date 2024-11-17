@@ -12,5 +12,5 @@ document.getElementById('forms-contato').addEventListener('submit', function(eve
 }
 
 function resetarTexto3(element) {
-    element.innerText = "Faça Parte"; 
+    element.innerText = "Faça Parte"; 
 }
