@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+header {
+    background-color: #001388;
+    position: relative;
+}
+
+.logo-1 {
+    width: 150px;
+    margin-left: 80%;
+    margin-top: 1%;
+}
+
+h1 {
+    color: white;
+    margin-left: 10%;
+    font-size: 60px;
+    margin-top: -3%;
+    position: absolute;
+    top: 150px;
+}
+
+.container-2 {
+    margin-top: 5%;
+    position: relative;
+    
+}
+
+h2 {
+    margin-left: 8%;
+    font-size: 36px;
+    color: #001388;
+    margin-top: 1px;
+}
+
+.container-resumo {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 800px;
+    padding: 21.5px;
+    background-color: azure;
+    border: 1px solid #001388;
+    border-radius: 10px;
+}
+
+p {
+
+    margin-left: -2%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    padding: 20px;
+    text-align: justify;
+    color: #001388;
+
+}
+
+ul {
+    margin-left: 2%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 600px;
+    padding: 5px;
+    color: #001388;
+    padding: 10px;
+
+
+}
+
+form {
+    padding: 75px;
+    width: 900px;
+    background-color: #001388;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    color: azure;
+    position: absolute;
+    left: 850px;
+    top: 90px;
+}
+
+#candidato {
+    text-align: center;
+    margin-left: 2px;
+    color: azure;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao-1 {
+    padding: 10px 20px;
+    background-color: #041161;
+    color: white;
+    border: 1px solid #0000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+
+}
+
+#botao-1:hover {
+    transition: 0.5s;
+    background-color: rgb(26, 73, 230);
+}
+
+.confirmacao-mensagem {
+    display: none;
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 55%;
+    background-color: #041161;
+    position: relative;
+}
+
+.logo-rodape {
+    position: relative;
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: -60px;
+
+}
+
+.insta-rodape {
+    position: relative;
+    max-width: 100%;
+    margin-left: 56%;
+    width: 70px;
+    top: 50px;
+
+}
+
+.whats-rodape {
+    position: relative;
+    max-width: 100%;
+    margin-left: 75%;
+    width: 70px;
+    left: 260px;
+    top: -42px;
+
+}
+
+#end-rodape,
+#mail-rodape,
+#fone-rodape,
+#copy-rodape {
+    color: azure;
+    text-align: right;
+    position: relative;
+    top: 120px;
+    left: 1110px;
+    font-size: 16px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-2 {
+    position: relative;
+    padding: 15px 20px;
+    background-color: azure;
+    color: #001388;
+    border: 1px solid #0000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 20%;
+    transition: transform 0.5s ease;
+    font-weight: bold;
+    left: 200px;
+    top: 40px;
+}
+
+.botao-2:hover {
+    transition: 0.5s;
+    background-color: rgb(191, 191, 228);
+    transform: scale(1.1) translateY(-3px);
+}
+#botao-4{
+    margin-left: 1310px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: #001388;
+    background-color: azure;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao-4:hover {
+    background-color: rgb(188, 198, 235);
+    transition: 1.0s;
+}
